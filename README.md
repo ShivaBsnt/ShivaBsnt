@@ -3,6 +3,7 @@
 
 <img src="https://github-readme-stats.vercel.app/api?username=ShivaBsnt&show_icons=true"/>
 <img src="https://github-readme-stats.vercel.app/api/top-langs?username=ShivaBsnt"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs?username=ShivaBsnt&layout=compact"/>
 <!--
 **ShivaBsnt/ShivaBsnt** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
