@@ -2,6 +2,7 @@
 🔭 I'm a shiva, Software Engineer currently working for an IT company at Kathmandu. I am actively contributing to the IT education sector of Nepal as a mentor of Python and Django.
 
 <img src="https://github-readme-stats.vercel.app/api?username=ShivaBsnt&show_icons=true"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs?username=ShivaBsnt"/>
 <!--
 **ShivaBsnt/ShivaBsnt** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
