@@ -1,5 +1,5 @@
 ### Hi there 👋
-🔭 I'm a shiva, Software Engineer currently working for an IT company at Kathmandu. I am actively contributing to the IT education sector of Nepal as a mentor of Python and Django.
+🔭 I'm shiva, Software Engineer currently working for an IT company at Kathmandu. I am actively contributing to the IT education sector of Nepal as a mentor of Python and Django.
 
 <img src="https://github-readme-stats.vercel.app/api?username=ShivaBsnt&show_icons=true"/>
 <img src="https://github-readme-stats.vercel.app/api/top-langs?username=ShivaBsnt"/>
