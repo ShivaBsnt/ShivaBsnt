@@ -15,9 +15,9 @@
 
 - ⚡ Fun fact **I use tab over space**
 
-# Blog posts
-<!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:END -->
+# 📺 Latest Youtube Videos
+<!-- YOUTUBE-VIDEOS-LIST:START -->
+<!-- YOUTUBE-VIDEOS-LIST:END -->
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
