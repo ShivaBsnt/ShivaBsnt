@@ -1,4 +1,4 @@
-[![MasterHead](https://cdn.buymeacoffee.com/uploads/cover_images/2022/12/3dd5c727d3f88adc317a817d12f5c832.jpg@2560w_0e.webp)]([https://rishavchanda.io](https://cdn.buymeacoffee.com/uploads/cover_images/2022/12/3dd5c727d3f88adc317a817d12f5c832.jpg@2560w_0e.webp))
+[![MasterHead](https://homework18.com/images/softraw/django-banner-1.png)]([https://rishavchanda.io](https://homework18.com/images/softraw/django-banner-1.pngp))
 <h1 align="center">Hi 👋, I'm Shiva Bahadur Basnet</h1>
 <h3 align="center">A passionate backend developer from Nepal</h3>
 <img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/media/320984a9ca58b3c73274c9259ecf6de8.gif">
@@ -13,7 +13,7 @@
 
 - 📫 How to reach me **shivabahadurbasnet313@gmail.com**
 
-- ⚡ Fun fact **I use tab over space**
+- ⚡ Fun fact **I ❤️ 🏋🏃⚽**
 
 # 📺 Latest Youtube Videos
 <!-- YOUTUBE-VIDEOS-LIST:START -->
