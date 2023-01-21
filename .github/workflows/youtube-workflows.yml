@@ -1,4 +1,4 @@
-name: Latest blog post workflow
+name: Latest YouTube Videos
 on:
   schedule: # Run workflow automatically
     - cron: '0 * * * *' # Runs every hour, on the hour
@@ -8,7 +8,7 @@ permissions:
 
 jobs:
   youtube:
-    name: Latest videos from YouTube
+    name: Latest YouTube Videos
     runs-on: ubuntu-latest
     steps:
        - uses: actions/checkout@v2
