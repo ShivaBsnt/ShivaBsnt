@@ -16,11 +16,11 @@
 
 # 📺 Latest Youtube Videos
 <!-- YOUTUBE-VIDEOS-LIST:START -->
-- [Single Sign On](https://www.youtube.com/watch?v=YwtOl9rn0UY)
+- [Single Sign On - Individual Project&lpar;STW303COM&rpar;](https://www.youtube.com/watch?v=YwtOl9rn0UY)
 - [Video 2021 03 01 153759](https://www.youtube.com/watch?v=z3GWtmxliSw)
-- [ESP8266 weather station with DHT22 and Rain drop Module](https://www.youtube.com/watch?v=-hTzk5vZzfI)
-- [Book Buy, Sell and  Rental System - Web API development](https://www.youtube.com/watch?v=L3RA8nanGtg)
-- [Book Buy, Sell and Rental System - Android Applications Development](https://www.youtube.com/watch?v=5xod2tutOZk)
+- [ESP8266 weather station with DHT22 and Rain drop Module - Interactive Pervasive Computing &lpar;STW307CR&rpar;](https://www.youtube.com/watch?v=-hTzk5vZzfI)
+- [Book Buy, Sell and  Rental System - Web API development&lpar;STW304CEM&rpar;](https://www.youtube.com/watch?v=L3RA8nanGtg)
+- [Book Buy, Sell and Rental System - Android Applications Development&lpar;STW300CEM&rpar;](https://www.youtube.com/watch?v=5xod2tutOZk)
 <!-- YOUTUBE-VIDEOS-LIST:END -->
 
 <h3 align="left">Connect with me:</h3>
