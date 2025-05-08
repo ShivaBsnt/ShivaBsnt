@@ -27,8 +27,8 @@
 <p align="left">
 <a href="https://linkedin.com/in/shivabsnt" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="shivabsnt" height="30" width="40" /></a>
 <a href="https://stackoverflow.com/users/19790242" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="19790242" height="30" width="40" /></a>
-<!-- <a href="https://fb.com/shiva.basnet.148" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="shiva.basnet.148" height="30" width="40" /></a> -->
-<!-- <a href="https://instagram.com/shivabahdaurbasnet" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="shivabahdaurbasnet" height="30" width="40" /></a> -->
+<a href="https://fb.com/shiva.basnet.148" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="shiva.basnet.148" height="30" width="40" /></a>
+<a href="https://instagram.com/shivabahdaurbasnet" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="shivabahdaurbasnet" height="30" width="40" /></a>
 <a href="https://www.leetcode.com/shiva_bahaur" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="shiva_bahaur" height="30" width="40" /></a>
 </p>
 
