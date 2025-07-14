@@ -1,25 +1,42 @@
 name: Fetch Blog Posts
-
 on:
   schedule:
-    - cron: '0 * * * *'   # every hour (optional)
-  workflow_dispatch:       # allow manual trigger
+    - cron: '0 0 * * *'  # Daily at midnight
+  workflow_dispatch:
+  push:
+    branches: [main]
 
 jobs:
-  run-script:
+  update-readme:
     runs-on: ubuntu-latest
-
+    permissions:
+      contents: write  # Add this permission
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}  # Add this line
+          fetch-depth: 0
 
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.10'
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
 
-    - name: Install feedparser
-      run: pip install feedparser
+      - name: Install dependencies
+        run: pip install feedparser
 
-    - name: Run blog fetch script
-      run: python blog-post-update.py
+      - name: Update README
+        run: python blog-post-update.py
+
+      - name: Commit and push changes
+        run: |
+          # Check if there are changes
+          if [ -n "$(git status --porcelain)" ]; then
+            git config --global user.name "GitHub Actions"
+            git config --global user.email "actions@github.com"
+            git add README.md
+            git commit -m "📚 Update latest blog posts"
+            git push origin HEAD:main
+          else
+            echo "No changes to commit"
+          fi
