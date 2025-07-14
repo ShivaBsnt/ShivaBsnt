@@ -1,18 +1,25 @@
-name: Latest Blog Posts
+name: Fetch Blog Posts
+
 on:
-  schedule: # Run workflow automatically
-    - cron: '0 * * * *' # Runs every hour, on the hour
-  workflow_dispatch: # Run workflow manually (without waiting for the cron to be called), through the GitHub Actions Workflow page directly
-permissions:
-  contents: write # To write the generated contents to the readme
+  schedule:
+    - cron: '0 * * * *'   # every hour (optional)
+  workflow_dispatch:       # allow manual trigger
 
 jobs:
-  youtube:
-    name: Latest Blog Posts
+  run-script:
     runs-on: ubuntu-latest
+
     steps:
-       - uses: actions/checkout@v2
-       - uses: gautamkrishnar/blog-post-workflow@master
-         with:
-          comment_tag_name: "BLOG-POST-LIST"
-          feed_list: "https://www.shivabahadurbasnet.com.np/feed.xml"
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    - name: Install feedparser
+      run: pip install feedparser
+
+    - name: Run blog fetch script
+      run: python blog-post-update.py
