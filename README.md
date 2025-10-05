@@ -25,11 +25,11 @@
 
 # 📝 Latest Blog Posts
 <!-- BLOG-POST-LIST:START -->
+- [Validation in Django REST Framework Serializers](https://shivabsnt.github.io/drf/Validation-in-Django-REST-Framework-Serializers/)
 - [How to Connect a Domain on Cloudflare to AWS EC2 Instance](https://shivabsnt.github.io/cloudfare/How-to-Connect-a-Domain-on-Cloudflare-to-AWS-EC2-Instance/)
 - [Snowflake Data Sharing Across Cloud Providers (AWS to Azure) Using Listings](https://shivabsnt.github.io/snowflake/Snowflake-Data-Sharing/)
 - [Real-Time Updates Without Polling – My Switch to Server-Sent Events](https://shivabsnt.github.io/real-time/communication/server-sent-events/)
 - [Blob Versioning, Blob Snapshots, and Soft Delete in Azure Blob Storage](https://shivabsnt.github.io/azure/azure-blob-versioning-snapshots-soft-delete/)
-- [Property Decorators - Getters, Setters, and Deleters](https://shivabsnt.github.io/python/Property-Decorator/)
 <!-- BLOG-POST-LIST:END -->
 
 <h3 align="left">Connect with me:</h3>
