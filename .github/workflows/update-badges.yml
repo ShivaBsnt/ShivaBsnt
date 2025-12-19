@@ -13,8 +13,21 @@ jobs:
     permissions:
       contents: write
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
       - name: Update Badges
         uses: pemtajo/badge-readme@main
         with:
-          CREDLY_USER: shivabahadurbasnet # Uses your GitHub username
-          NUMBER_LAST_BADGES: 10 # Show last 10 badges (0 = all)
+          CREDLY_USER: shivabahadurbasnet
+          NUMBER_LAST_BADGES: 10
