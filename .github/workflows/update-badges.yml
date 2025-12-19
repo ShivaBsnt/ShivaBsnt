@@ -23,7 +23,7 @@ jobs:
           python-version: '3.x'
 
       - name: Install dependencies
-        run: pip install feedparser
+        run: pip install requests
 
       - name: Update README
         run: python credly-badge-update.py
