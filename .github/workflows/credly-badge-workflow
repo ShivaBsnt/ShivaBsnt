@@ -9,6 +9,7 @@ jobs:
     name: Update Readme with badges
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v3
       - name: Badges - Readme
         uses: pemtajo/badge-readme@main
         with:       
