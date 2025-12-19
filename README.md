@@ -7,7 +7,7 @@
 <!--END_SECTION:badges-->
 
 <!-- Leet code badges -->
-<img src="https://leetcode-badge-showcase.vercel.app/api?username=shivabahadurbasnet&theme=dark&animated=true" alt="LeetCode Badges" />
+<!-- <img src="https://leetcode-badge-showcase.vercel.app/api?username=shivabahadurbasnet&theme=dark&animated=true" alt="LeetCode Badges" /> -->
 
 <img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/media/320984a9ca58b3c73274c9259ecf6de8.gif">
 
