@@ -6,6 +6,9 @@
 <a href="https://www.credly.com/badges/83875a08-052b-4059-aa5e-7771e08f2192" target="_blank"><img src="https://images.credly.com/images/82b908e1-fdcd-4785-9d32-97f11ccbcf08/image.png" alt="Artificial Intelligence Fundamentals" width="80" height="80" /></a> <a href="https://www.credly.com/badges/04b3a9be-c664-4279-ac83-d0352b76f723" target="_blank"><img src="https://images.credly.com/images/e51a8579-188d-4363-8ed1-12ad164ef57b/blob" alt="AWS Educate Introduction to Cloud 101 - Training Badge" width="80" height="80" /></a> <a href="https://www.credly.com/badges/6e47159b-4aba-443f-8d0d-ecdcbe45d066" target="_blank"><img src="https://images.credly.com/images/247efe36-9fa6-4209-ad56-0fd522283872/blob" alt="AWS Educate Machine Learning Foundations - Training Badge" width="80" height="80" /></a> <a href="https://www.credly.com/badges/d0cad1a1-5cb9-45c4-9595-a83bc02b2ece" target="_blank"><img src="https://images.credly.com/images/2fb2af02-750e-4f2c-8a0b-98f3a6d0144b/AI_Analyst_-_Mastery_2019.png" alt="Artificial Intelligence Analyst - Mastery Award 2019" width="80" height="80" /></a> <a href="https://www.credly.com/badges/379c2a19-63a1-43fe-b148-ab7d598a7dba" target="_blank"><img src="https://images.credly.com/images/628f8891-65ee-4239-9c48-6bdbaa7c4a20/AI_Analyst_-_Exporer_2019.png" alt="Artificial Intelligence Analyst - Explorer Award 2019" width="80" height="80" /></a> 
 <!--END_SECTION:badges-->
 
+<!-- Leet code badges -->
+<img src="https://leetcode-badge-showcase.vercel.app/api?username=shivabahadurbasnet&theme=dark&animated=true" alt="LeetCode Badges" />
+
 <img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/media/320984a9ca58b3c73274c9259ecf6de8.gif">
 
 # 👨‍💻 About Me
@@ -37,9 +40,6 @@
 - [Snowflake Data Sharing Across Cloud Providers (AWS to Azure) Using Listings](https://shivabsnt.github.io/snowflake/Snowflake-Data-Sharing/)
 - [Real-Time Updates Without Polling – My Switch to Server-Sent Events](https://shivabsnt.github.io/real-time/communication/server-sent-events/)
 <!-- BLOG-POST-LIST:END -->
-
-<img src="https://leetcode-badge-showcase.vercel.app/api?username=shiva_bahaur&border=no-border" alt="LeetCode Badges" />
-
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
