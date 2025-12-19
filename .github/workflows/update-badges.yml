@@ -1,4 +1,4 @@
-name: Fetch Blog Posts
+name: Fetch Credly Badges
 on:
   schedule:
     - cron: '0 0 * * *'  # Daily at midnight
