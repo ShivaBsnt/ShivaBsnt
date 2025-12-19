@@ -1,20 +1,22 @@
 name: Fetch Credly Badges
+
 on:
   schedule:
-    - cron: '0 0 * * *'  # Daily at midnight
+    - cron: '0 0 * * *' # Daily at midnight UTC
   workflow_dispatch:
-  push:
-    branches: [main]
 
 jobs:
   update-readme:
+    if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # Add this permission
+      contents: write
+
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}  # Add this line
+          token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
 
       - name: Set up Python
@@ -25,18 +27,20 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Update README
+      - name: Update README with Credly badges
         run: python credly-badge-update.py
 
       - name: Commit and push changes
         run: |
-          # Check if there are changes
           if [ -n "$(git status --porcelain)" ]; then
             git config --global user.name "GitHub Actions"
             git config --global user.email "actions@github.com"
+
             git add README.md
-            git commit -m "📚 Update credly badge"
-            git push origin HEAD:main
+            git commit -m "📚 Update Credly badges"
+
+            git pull origin main --rebase
+            git push origin main
           else
             echo "No changes to commit"
           fi
